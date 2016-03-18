@@ -1,0 +1,17 @@
+pdestate -a
+
+tpareset -x stop td
+
+/etc/init.d/tpa start
+
+ip addr show
+
+cd .\drivers\etc
+
+notepad hosts
+
+bteq
+
+.logon localtd/dbc
+
+create database adventure_dw from dbc as perm = 200000000;
